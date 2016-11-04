@@ -24,4 +24,5 @@ def getLinks_dfs(pageUrl):
                 pages.add(newPage)
                 getLinks_dfs(newPage)
 
+# Starting from a random movie
 getLinks_dfs("https://movie.douban.com/subject/4944008/?tag=%E7%83%AD%E9%97%A8&from=gaia")
