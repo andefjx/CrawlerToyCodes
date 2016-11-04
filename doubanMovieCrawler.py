@@ -1,6 +1,9 @@
 #!/usr/bin/python2.7
 # -*- coding: utf-8 -*-
-
+'''
+Toy code for crawling movie information from Douban (movie.douban.com)
+Little project of interest
+'''
 from urllib2 import urlopen, HTTPError
 from bs4 import BeautifulSoup
 import datetime, random, re

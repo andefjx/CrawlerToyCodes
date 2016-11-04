@@ -6,6 +6,7 @@ from cookielib import CookieJar
 from bs4 import BeautifulSoup
 '''
 Test code for obtaining web page
+Thanks to: https://github.com/luzhijun/weiboSA
 '''
 # email = raw_input('Email: ')
 # passwd = raw_input('Passwd: ')
